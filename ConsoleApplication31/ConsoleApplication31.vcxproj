@@ -128,6 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication31.cpp" />
+    <ClCompile Include="grade.cpp" />
+    <ClCompile Include="raid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grade.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Raid.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
